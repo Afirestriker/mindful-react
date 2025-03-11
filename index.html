@@ -6,8 +6,12 @@
     <title>Mindful React</title>
   </head>
   <body>
-    <div id="root">
-        <h1>Hello World!</h1>
-    </div>
+    <div id="root"></div>
+    <script>
+        const heading = document.createElement('h1');
+        heading.innerHTML = 'Hello World from JavaScript!';
+
+        document.getElementById('root').appendChild(heading);
+    </script>
   </body>
 </html>
