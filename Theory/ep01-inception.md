@@ -83,6 +83,10 @@ A:
 
 The reason why React made different file for both of them. Well React dose not only works on browsers. React also work on mobile phone usign `React Native`, `React 3D`.
 
+## How does `React` and `ReactDOM` work together?
+
+A: Creating element is a core concept of react and is handled by `React`, whereas creating root for rendering react stuff is the work of `ReactDOM`.
+
 ## What is difference between `react.development.js` and `react.production.js` files via CDN?
 
 A:
