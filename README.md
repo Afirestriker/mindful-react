@@ -21,26 +21,26 @@ Mindful React is more than just a collection of code examples. It's a journey to
 
 ## Getting Started
 
-1.  **Clone the repository:**
+1. **Clone the repository:**
 
     ```bash
     git clone https://github.com/Afirestriker/mindful-react.git
     cd mindful-react
     ```
 
-2.  **Navigate to the desired example or project:**
+2. **Navigate to the desired example or project:**
 
     ```bash
     cd examples/...
     ```
 
-3.  **Install dependencies:**
+3. **Install dependencies:**
 
     ```bash
     npm install # or yarn install
     ```
 
-4.  **Run the application:**
+4. **Run the application:**
 
     ```bash
     npm start # or yarn start
@@ -50,9 +50,9 @@ Mindful React is more than just a collection of code examples. It's a journey to
 
 We welcome contributions! If you have examples, projects, or learning resources that align with the philosophy of Mindful React, please feel free to submit a pull request.
 
-1.  Fork the repository.
-2.  Create a new branch for your feature or fix.
-3.  Submit a pull request.
+1. Fork the repository.
+2. Create a new branch for your feature or fix.
+3. Submit a pull request.
 
 ## License
 
