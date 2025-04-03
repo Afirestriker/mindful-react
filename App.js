@@ -2,7 +2,6 @@
  * <div id="parent">
  *  <div id="child">
  *    <h1></h1>
- *    <h1></h1>
  *  </div>
  *  <div id="child2">
  *    <h1></h1>
@@ -13,7 +12,6 @@
  * ReactElement is an Object => which convert the object into an HTML tag which the Browser's understand
  * ReactElement(Object) => HTML(Browser Understand)
  */
-
 const parent = React.createElement("customTag", { id: "parent" }, [
     React.createElement("div", { id: "child", key: "child1" }, React.createElement("h1", { key: "key1" }, "I am a child1 h1 tag!")),
     React.createElement("div", { id: "child2", key:"child2" }, [
@@ -22,7 +20,7 @@ const parent = React.createElement("customTag", { id: "parent" }, [
     ]),
 ]);
 
-console.log(parent); // object
+console.log(parent) // object
 
 // JSX?
 
