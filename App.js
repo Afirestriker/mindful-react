@@ -19,5 +19,5 @@ console.log(parent) // view React.createElement JS object structure
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-// overwrite the complete `#root` tag ccontent
+// this overwrite's the complete `#root` tag ccontent
 root.render(parent);
