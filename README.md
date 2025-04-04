@@ -1,4 +1,4 @@
-# Mindful React
+# Mindful React 🚀
 
 Welcome to Mindful React, a repository dedicated to exploring React development with a focus on clarity, maintainability, and a deep understanding of core concepts.
 
