@@ -1,0 +1,29 @@
+{
+  "name": "mindful-react",
+  "version": "1.0.0",
+  "description": "The is Mindful React by Ashish Agrawal",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Afirestriker/mindful-react.git"
+  },
+  "keywords": [
+    "react",
+    "mindful",
+    "react",
+    "ashish",
+    "agrawal"
+  ],
+  "author": "Ashish Agrawal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Afirestriker/mindful-react/issues"
+  },
+  "homepage": "https://github.com/Afirestriker/mindful-react#readme",
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  }
+}
