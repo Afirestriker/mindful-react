@@ -5,6 +5,8 @@ const Title = () => <h1 id="heading"> Mindful React 🚀 </h1>;
 
 const HeadingComponent = () => (
   <div id="container">
+    {/* {Title()} */}
+    {/* <Title></Title> */}
     <Title />
     <h2 className="sub-head">
       Component Composition - Functional Component 🚀
