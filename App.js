@@ -1,21 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-const Title= () => (
-  <h1 className="head" tabIndex="1">
-    Mindful React using JSX 🚀
-  </h1>
-);
+const Title = () => <h1 id="heading"> Mindful React 🚀 </h1>;
 
-// Component Composition
-const HeadingComponent = () => {
-  return (
-    <div id="container">
-      <Title />
-      <h1 className="head">Mindful React Functional Component 🚀</h1>
-    </div>
-  );
-};
+const HeadingComponent = () => (
+  <div id="container">
+    <Title />
+    <h2 className="sub-head">
+      Component Composition - Functional Component 🚀
+    </h2>
+  </div>
+);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
