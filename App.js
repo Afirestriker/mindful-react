@@ -1,19 +1,17 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-// JSX => Babel transpiles it to React.createElement => ReactElement - JS Object => HTMLELement(render)
-
-// React Element
-const heading = (
+const Title= () => (
   <h1 className="head" tabIndex="1">
-    Mindful React from JSX 🚀
+    Mindful React using JSX 🚀
   </h1>
 );
 
-// React component
+// Component Composition
 const HeadingComponent = () => {
   return (
     <div id="container">
+      <Title />
       <h1 className="head">Mindful React Functional Component 🚀</h1>
     </div>
   );
