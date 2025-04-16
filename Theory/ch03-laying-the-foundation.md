@@ -14,6 +14,10 @@ A: JSX is an javaScript extension **HTML-Like** or **XML-Like** syntax.
 - If you have to give attributes to JSX, you have to use `camelCase` for e.g., `class => className`, `tabindex => tabIndex`, etc.
 - JSX in multi-line is not a valid JavaScript, so we need to wrapped it inside round braces `()` while writting multi line JSX.
 The round brackets `()` helps babel (transpiler) understand the starting and ending of an JSX syntax.
+- You can also execute any JavaScript expression within JSX, by wrapping it inside curcly barces `{}`.
+- JSX take care of any injection attacks as well. For example: if a API passed some malicious data into our code, the JSX will not blindly run it, rather it will escapse it.
+  - JSX Sanitize the data before processing the JavaScript extension wrapped inside the curcly braces `{}`.
+  - JSX also prevent cross-side scripting attacks.
 
 > - 💡 JavaScript is a code that JS engine can understand (ECMA-Script)
 > - 💡 Transpile - converting the code into what browser can understand
