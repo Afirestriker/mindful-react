@@ -206,7 +206,11 @@ While using the index as keys can be a quick solution for simple and static list
 
 ### Q: What is `props in React`?
 
-A: In React, `props (short for properties)` is a mechanism for passing data from a parent component to a child component. They allow us to make our React components dynamic and reusable by providing a way to configure and customize their behavior. Props are read-only, meaning that a child component cannot modify the props it receives from a parent.
+A: In React, `props (short for properties)` is a mechanism for passing data from a parent component to a child component.
+
+React functional component is simply a normal JavaScript functions, and like function accepts argumetns, React component accepts props. `Passing a props to a component is just like passing an argument to a function.`
+
+They allow us to make our React components dynamic and reusable by providing a way to configure and customize their behavior. Props are read-only, meaning that a child component cannot modify the props it receives from a parent.
 
 To pass props to a child component, you can use the following methods:
 
