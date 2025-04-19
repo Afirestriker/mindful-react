@@ -1,19 +1,21 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-const Title = () => <h1 id="heading"> Mindful React 🚀 </h1>;
-
-const HeadingComponent = () => (
-  <div id="container">
-    {/* {Title()} */}
-    {/* <Title></Title> */}
-    <Title />
-    <h2 className="sub-head">
-      Component Composition - Functional Component 🚀
-    </h2>
-  </div>
-);
+/**
+ * Header
+ *  - Logo
+ *  - Nav Items
+ * Body
+ *  - Search
+ *  - Restro Card Container
+ *   - Restro Cards
+ * Footer
+ *  - Copyright
+ *  - Links
+ *  - Address
+ *  - Contact
+*/
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(<HeadingComponent />);
+root.render();
